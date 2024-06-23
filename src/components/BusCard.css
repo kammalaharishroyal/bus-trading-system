@@ -1,0 +1,94 @@
+.bus-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bus-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bus-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .bus-card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bus-card-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .bus-card-price {
+    font-size: 1.2em;
+    color: #007bff;
+    margin: 10px 0;
+  }
+  
+  .bus-card-ratings {
+    margin: 10px 0;
+  }
+  
+  .star {
+    color: #ff9800;
+    font-size: 1.2em;
+  }
+  
+  .bus-card-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .bus-card-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bus-card-add-to-cart {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .bus-card-add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  
+  .bus-card-buy-now {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .bus-card-buy-now:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .bus-card {
+      max-width: 100%;
+    }
+  
+    .bus-card-content {
+      padding: 10px;
+    }
+  
+    .bus-card-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

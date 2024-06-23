@@ -1,0 +1,14 @@
+.bus-list {
+  padding: 20px;
+}
+
+.bus-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bus-list-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
